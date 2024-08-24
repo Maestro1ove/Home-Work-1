@@ -1,5 +1,3 @@
-from tkinter.scrolledtext import example
-
 print ('Hello teacher') # Буду благодарен комментариям моей работы!
 # 1st program
 print (9 ** 0.5 * 5)
