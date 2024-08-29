@@ -8,10 +8,11 @@ print (2 * 2 + 2)
 print (2 * (2 + 2))
 print (2 * 2 + 2 == 2 * (2 + 2)) # Не совсем понял, нужно ли мне было считать 2 строчки сверху, по сути решение тут на одной строке изображено
 # 4th program
-num_str = '123.456'
-num = float(num_str)
-print ( num * 10)
-print ('Thank you , Good Luck')
+str_ = '123.456'
+str1 = float('123.456')
+str2 = int(float('123.456') * 10)
+str3 = int((float('123.456')) * 10) % int(float('123.456'))
+print(str3)
 
 
 
